@@ -1,0 +1,88 @@
+body {
+    background: url(../images/concrete.png);
+    font-size: 24px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 960px;
+    border: rgb(50, 50, 196) solid 5px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+h1 {
+    font-weight: bold;
+    background: rgb(50, 50, 196);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.rules {
+    padding-top: 10px;
+}
+.container {
+    padding-bottom: 10px;
+}
+button {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin:20px;
+    border-radius: 25px;
+}
+#red {
+    color: #fff;
+    background-color: red;
+    border-color: black;
+    padding: 20px;
+}
+#red:hover {
+    background-color: #ddd;
+    color: red;
+}
+#blue {
+    color: #fff;
+    background-color: blue;
+    border-color: black;
+    padding: 20px;
+}
+#blue:hover {
+    background-color: #ddd;
+    color: blue;
+}
+#yellow {
+    color: black;
+    background-color: yellow;
+    border-color: black;
+    padding: 20px;
+}
+#yellow:hover {
+    background-color: #ddd;
+    color: yellow;
+}
+#green {
+    color: #fff;
+    background-color: green;
+    border-color: black;
+    padding: 20px;
+}
+#green:hover {
+    background-color: #ddd;
+    color: green;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 26, 27);
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 6px solid rgb(50, 50, 196);
+}
