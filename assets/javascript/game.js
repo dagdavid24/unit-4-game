@@ -38,15 +38,16 @@ console.log(green.value);
 
 // add up the value of the number that was assigned to the crystal to yourScore
 var yourScore = document.getElementById("yourScore");
+var score = 0;
 
 function scoreRed() {
-    if (yourScore.value > 0) { 
+    if (score > 0) { 
         yourScore.textContent = parseInt(yourScore.value) + rvalue;
         yourScore.value = parseInt(yourScore.value) + rvalue;
     }
     else {
         yourScore.textContent = rvalue;
-        yourScore.value = rvalue;
+        score = rvalue;
     }
     console.log(red.value);
 }
@@ -61,7 +62,7 @@ function scoreBlue() {
     }
     console.log(yourScore);
 }
-/*function scoreYellow() {
+function scoreYellow() {
     if (yourScore > 0) {
         yourScore.textContent = parseInt(yourScore.value) + parseInt(yellow.value);
         yourScore.value = parseInt(yourScore.value) + parseInt(yellow.value);
@@ -82,7 +83,7 @@ function scoreGreen() {
         yourScore = green.value;
     }
     //console.log(yourScore);
-}*/
+}
 
 
 // if yourScore is greater than targetScore increment losses and restart game
